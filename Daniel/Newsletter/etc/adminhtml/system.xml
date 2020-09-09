@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Daniel
+ * @package     Daniel_Newsletter
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="daniel_tab" translate="label" sortOrder="50">
+            <label>Daniel</label>
+        </tab>
+        <section id="daniel_newsletter" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Newsletter</label>
+            <tab>daniel_tab</tab>
+            <resource>Vendor_Extension::config_extension</resource>
+            <group id="daniel_subscribe" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Subscribe</label>
+                <field id="rule_id" translate="label comment" type="text" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Catalog Price Rule ID</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

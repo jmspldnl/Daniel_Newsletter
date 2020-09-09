@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Daniel
+ * @package     Daniel_Newsletter
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <daniel_newsletter>
+            <daniel_subscribe>
+                <rule_id>1</rule_id>
+            </daniel_subscribe>
+        </daniel_newsletter>
+    </default>
+</config>

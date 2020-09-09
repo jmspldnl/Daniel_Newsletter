@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Daniel
+ * @package     Daniel_Newsletter
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Newsletter\Model\Subscriber" type="Daniel\Newsletter\Model\Subscriber"/>
+</config>
